@@ -1,5 +1,5 @@
 # İnternet ile İlgili Notlarım
-##HTTP
+## HTTP
 > HTTP yani Hypertext Transfer Protocol türkçesiyle Hiper Metin İletim Yöntemi adından anlaşılabileceği üzere bir protokol yani yöntemdir. Bu protokol ile yazı aktaran sistemlere Ağ sunucusu, bu sistemi kullanarak yayın yapanlara web sitesi ve iletileri alanlara client diyebiliriz. HTTP Yöntemi genel itibariyle HTTP/1 ve HTTP/2 olarak ayrılıyor. HTTP ile alakadar güncellemeleri İnternet Hükümeti adı altında IETF (Internet Engineering Task Force) yani İnternet Mühendisliği Görev Gücü standartlaştırmakta.
  
 Ağ sunucularına örnek olarak:
