@@ -1,4 +1,4 @@
-# PHP Programlama Dili İçin Standardlar
+# PHP Programlama Dili İçin Standard Notlarım
 > PHP Programlama dili için standartlar https://www.php-fig.org/psr/ sitesinde PCR (PHP Standards Recommendations yani PHP Standart Önerileri) adı altında paylaşılıyor.
 
 # Yazı Amacı
