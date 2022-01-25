@@ -34,7 +34,7 @@ Ağ sunucularına örnek olarak:
 > Çoğu ağ sunucusunun kullandığı ağ sunucusunun kurallarını belirlemeyi sağlayan dilin dosya formatıdır. HTAccess dili sayesinde istediğiniz gibi URL yönlendirmesi yapabilirsiniz. HTAccess dilini örneksiz anlatmam çok zor olacaktır bu yüzden meraklı olanlar internetten daha detaylı araştırabilir.
 
 ## TCP / UDP
-> İnternette haberleşme için tüm kaynaklarda güvenli ve güvensiz olarak sınıflandırılan protokollerdir. İnternet için ara farkla en çok bilinen ve en çok kullanılan protokollerdir. Temel olarak TCP'nin güvenli ve UDP'nin güvensiz ama hızlı olduğunu bilmeniz yeterlidir. Geri kalan bilgiler protokollerin çalışırken kullandığı prensipleri açıklamak için verilebilir. Bunlara ben de hakim değilim.
+> İnternette haberleşme için çoğu kaynaklarda güvenli ve güvensiz olarak sınıflandırılan protokollerdir. İnternet için ara farkla en çok bilinen ve en çok kullanılan protokollerdir. Temel olarak TCP'nin güvenli ve UDP'nin güvensiz ama hızlı olduğunu bilmeniz yeterlidir. Geri kalan bilgiler protokollerin çalışırken kullandığı prensipleri açıklamak için verilebilir. Bunlara ben de hakim değilim.
 
 ## İnternet Mühendisliği Görev Gücü
 Kaynak: https://www.ietf.org
