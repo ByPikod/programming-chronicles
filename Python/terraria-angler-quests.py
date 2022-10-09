@@ -3,22 +3,23 @@
 #   complete the Angler quest in Terraria. It's a quest that you should
 #   catch a specific fish and take it to the Angler. Which he is a fisherman boy.
 #   In return, he gives some items. There is 6 neccessary items you should collect.
+#   There is 6 neccessary items you should collect.
 #   I've calculcated the avarage amount of quests you should complete to collect 6 items.
 #
 import random
 
 # Check if all the values is True in a dictionary
-def check_all(checkList):
-    for x in checkList.values():
+def check_all(check_list):
+    for x in check_list.values():
         if not x:
             return False
     return True
 
-totalAttempts = 0
+total_attempts = 0
 for i in range(10000):
 
     attempts = 1
-    checkList = {
+    check_list = {
         1: False,
         2: False,
         3: False,
@@ -31,14 +32,14 @@ for i in range(10000):
 
         rand = random.randint(1, 40)
         if rand < 7:
-            checkList[rand] = True
+            check_list[rand] = True
                 
-        if check_all(checkList):
+        if check_all(check_list):
             break
         
         attempts += 1
         
-    totalAttempts = totalAttempts + attempts
+    total_attempts = total_attempts + attempts
 
 # Avarage attempts
-print(totalAttempts / 10000)
+print(total_attempts / 10000)
