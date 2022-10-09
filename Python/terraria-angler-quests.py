@@ -41,5 +41,5 @@ for i in range(10000):
         
     total_attempts = total_attempts + attempts
 
-# Avarage attempts
+# Average attempts
 print(total_attempts / 10000)
