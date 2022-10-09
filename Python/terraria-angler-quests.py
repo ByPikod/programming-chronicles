@@ -11,24 +11,14 @@ import random
 total_attempts = 0
 for i in range(10000):
 
-    attempts = 1
-    check_list = {
-        1: False,
-        2: False,
-        3: False,
-        4: False,
-        5: False,
-        6: False
-    }
+    attempts = 0
+    check_list = {i: False for i in range(6)}
     
-    while True:
+    while not all(check_list.values()):
 
-        rand = random.randint(1, 40)
-        if rand < 7:
+        rand = random.randint(0, 39)
+        if rand < 6:
             check_list[rand] = True
-                
-        if all(check_list.values()):
-            break
         
         attempts += 1
         
