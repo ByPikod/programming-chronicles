@@ -8,13 +8,6 @@
 #
 import random
 
-# Check if all the values is True in a dictionary
-def check_all(check_list):
-    for x in check_list.values():
-        if not x:
-            return False
-    return True
-
 total_attempts = 0
 for i in range(10000):
 
@@ -34,7 +27,7 @@ for i in range(10000):
         if rand < 7:
             check_list[rand] = True
                 
-        if check_all(check_list):
+        if all(check_list.values()):
             break
         
         attempts += 1
