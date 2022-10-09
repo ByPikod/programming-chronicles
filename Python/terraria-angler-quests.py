@@ -14,7 +14,7 @@ for i in range(10000):
     attempts = 0
     check_list = {i: False for i in range(6)}
     
-    while not all(check_list.values()):
+    while not all(check_list):
 
         rand = random.randint(0, 39)
         if rand < 6:
