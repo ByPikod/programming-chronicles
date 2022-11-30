@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            
+            <legend>Kişisel Bilgiler</legend>
+            <br>
+            <label for="ad">Adı: </label>
+            <input type="text" name="ad">
+            <label for="soyad">Soyadı: </label>
+            <input type="text" name="soyad"><br><br>
+            <label for="adres">Adresi: </label>
+            <input size="50" type="text" name="adres">
+            <br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Tıbbi Geçmişi</legend>
+            <br>
+            <input type="checkbox" name="bogmaca"> Boğmaca
+            <input type="checkbox" name="kabakulak"> Kabakulak
+            <input type="checkbox" name="kizamik"> Kızamık
+            <input type="checkbox" name="sucicegi"> Suçiçeği
+            <br><br>
+        </fieldset>
+        <fieldset>
+            <legend>İlaç Tedavisi</legend>
+            <br>
+            Halen kullanmakta olduğunuz ilaçlar var mı ? <br>
+            <input type="radio"> Evet
+            <input type="radio"> Hayır
+            <br><br>
+            Eğer ilaç kullanıyorsanız, aşağıya kullandığınız ilaçları ve günlük dozlarını belirtiniz:
+            <br><textarea name="ilaclar" cols="60" rows="10"></textarea>
+        </fieldset>
+    </form>
+</body>
+</html>
