@@ -1,0 +1,15 @@
+p {
+    color: aqua;
+    background-color: yellow;
+}
+
+h1 {
+    color: yellow;
+    background-color: black;
+    font-size: 25px;
+}
+
+img {
+    width: 250px;
+    height: 200px;
+}

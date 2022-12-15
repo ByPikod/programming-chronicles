@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0px;
+        }
+        .property-name{
+            display: block;
+            width: 100%;
+            padding: 20px;
+            font-size: 2.4em;
+            font-family: 'Courier New', Courier, monospace;
+            background-color: black;
+            color: white;
+        }
+        .content{
+            padding: 10px;
+            font-size: 1.5em;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .box{
+            font-family: Arial;
+            padding: 10px;
+        }
+        .inline-block{
+            display: inline-block;
+            border: solid rgb(255, 90, 90);
+        }
+        .block{
+            display: block;
+            border: solid rgb(255, 90, 90);
+        }
+        .content li {
+            margin-bottom: 20px;
+            display: block;
+            list-style: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="property-name">Property: <span class="property">Display</span></div>
+    <div class="content">
+        <ul>
+            <li>
+                Inline-Block:
+                <div class="box inline-box">Box</div>
+            </li>
+            <li>
+                Block:
+                <div class="box block">Box</div>
+            </li>
+            <li>
+                Inline:
+                <div class="box inline">Box</div>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
