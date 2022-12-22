@@ -1,0 +1,106 @@
+body{
+    display: flex;
+    background-position: center center;
+    background-image: url('../images/bulut.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-family: Arial;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+#content {
+    border: solid 0.2px #336699;
+    width: 920px;
+    padding: 5px;
+    left: 50%;
+    margin-top: 10px;
+    transform: translateX(-50%);
+    position: absolute;
+    border-radius: 10px;
+}
+
+#banner {
+    height: 200px;
+    width: 100%;
+    display: block;
+    border: solid 0.2px #336699;
+    background-image: url('../images/banner.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.box {
+    border: solid 0.2px #336699;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#middle-wrapper{
+    margin-top: 10px;
+}
+
+#menu {
+    margin: 0px;
+    display: inline-flex;
+    flex-direction: column;
+    list-style: none;
+
+    width: 200px;
+    height: 400px;
+    padding: 5px;
+}
+
+#menu > a {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    background: #AACCFF;
+    box-shadow: 0px 0px 3px 1px black;
+    margin: 5px;
+    color: #000080;
+    font-size: 18px;
+}
+
+#menu > a:hover{
+    color: #FF0000;
+    background-color: #EEEEEE;
+}
+
+#page-content {
+    display: block;
+    float: right;
+    width: 695px;
+    height: 400px;
+    color: #336699;
+}
+
+#page-title{
+    display: block;
+    font-size: 24px;
+    color: #000080;
+}
+
+#content-image{
+    width: 150px;
+    height: 150px;
+}
+
+#footer {
+    margin-top: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+#footer > a{
+    text-decoration: none;
+    color: #000080;
+}

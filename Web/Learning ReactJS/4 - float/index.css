@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.social-button{
+    padding: 15px;
+    width: 300px;
+    font-size: 24px;
+    font-family: 'Roboto';
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+    user-select: none;
+    text-decoration: none;
+    position: relative;
+}
+
+.social-button::before{
+    content: '';
+    background: black;
+    height: 4px;
+    width: 0%;
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    transition: all 0.3s;
+}
+
+.social-button:hover::before{
+    width: 100%;
+}
+
+.social-button .image{
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-position: center center;
+    display: inline-block;
+    border-radius: 50px;
+}
+
+.social-button .brand-name{
+    color: white;
+    margin-left: 10px;
+}
+
+.buttons-wrapper{
+    position: absolute;
+    right: 0%;
+    top: 50%;
+    transform: translateY(-50%);
+}

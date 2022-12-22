@@ -1,0 +1,22 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.box{
+    background: gold;
+    border: solid black 1px;
+    margin: 5px;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.relativeBox{
+    position: relative;
+}
+
+.absoluteBox{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
