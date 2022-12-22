@@ -1,0 +1,52 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Verdana";
+}
+
+.navbar{
+    padding: 10px;
+    background: rgb( 255, 100, 100 );
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.navbar .brand{
+    font-size: 1.5em;
+    font-weight: 800;
+}
+
+.link-wrapper{
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.link-wrapper li{
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.link-wrapper li:hover{
+    color: aqua;
+}
+
+.link-wrapper li:hover::after{
+    width: 100%;
+}
+
+.link-wrapper li::after{
+    transition: all 0.1s;
+    width: 0%;
+    background: aqua;
+    height: 2px;
+    display: block;
+    content: '';
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.content{
+    padding: 10px;
+}
